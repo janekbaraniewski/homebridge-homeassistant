@@ -1,7 +1,7 @@
 {
-  "name": "homebridge-homeassistant-saaak",
-  "version": "1.0.0",
-  "description": "适配homeassistant最新版本，配置方法与官方一样",
+  "name": "homebridge-homeassistant",
+  "version": "1.0.1",
+  "description": "Home Assistant integration for homebridge",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,14 +12,15 @@
   },
   "keywords": [
     "homeassistant",
-    "homebridge"
+    "homebridge",
+    "homebridge-plugin"
   ],
-  "author": "saaak",
+  "author": "janekbaraniewski",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saaak/homebridge-homeassistant-saaak/issues"
+    "url": "https://github.com/janekbaraniewski/homebridge-homeassistant/issues"
   },
-  "homepage": "https://github.com/saaak/homebridge-homeassistant-saaak#readme",
+  "homepage": "https://github.com/janekbaraniewski/homebridge-homeassistant#readme",
   "dependencies": {
     "eventsource": "^0.2.1",
     "request": "^2.69.0"
